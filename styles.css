@@ -1,0 +1,73 @@
+/* Reset some default spacing */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* General body styling */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f9;
+  color: #333;
+  padding: 20px;
+}
+
+/* Header section */
+header {
+  background: #4a90e2;
+  color: #fff;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+
+header h1 {
+  margin-bottom: 10px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Intro section */
+.intro {
+  background: #fff;
+  border: 2px solid #ddd;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+
+/* Content section with boxes */
+.content {
+  margin-bottom: 20px;
+}
+
+.box {
+  background: #e2f0d9;
+  border: 2px solid #7bb661;
+  padding: 20px;
+  margin: 10px 0;
+  border-radius: 6px;
+  text-align: center;
+  font-weight: bold;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  background: #222;
+  color: white;
+  padding: 10px;
+  border-radius: 8px;
+}
